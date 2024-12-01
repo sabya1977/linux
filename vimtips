@@ -1,0 +1,22 @@
+Block copy and paste
+--------------------
+1. Cut and paste:
+-----------------
+Position the cursor where you want to begin cutting.
+Press v to select characters (or uppercase V to select whole lines).
+Move the cursor to the end of what you want to cut.
+Press d to cut (or y to copy).
+Move to where you would like to paste.
+Press P to paste before the cursor, or p to paste after.
+
+d = delete = cut
+y = yank = copy
+----------------
+
+2. Copy from one file to another
+---------------------------------
+1. Edit the first file, yanking the text you want. Then open your second file from within vi (:e /path/to/other/file) and paste it
+2. Open both files together in a split window and navigate between them using Ctrl + w, Up/Down either by: 
+
+i)  vi -o /path/to/file1 /path/to/file2
+ii) From within the first file, Ctrl + w, s
